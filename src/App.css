@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li{
+  list-style: none;
+}
+
+.main-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding:3rem;
+  min-height:100vh;
+  justify-content: center;
+}
+
+.advice-card{
+  border:2px solid white;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap:1.5rem;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  width: 600px;
+  height:250px;
+  background-color: #f9f9f9;
+}
+
+button{
+  cursor: pointer;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  border:none;
+  background-color: #4CAF50;
+  color:white;
+}
+
+button:hover{
+  background-color: #45a049;
+}
+
